@@ -1,0 +1,5 @@
+firstname = str(input('Enter your first name:\n'))
+surname = str(input('Enter your surname:\n'))
+full_name = str(f'{firstname} {surname}')
+full_name_length = int(len(full_name))
+print(f'{full_name}\n{full_name_length}')
