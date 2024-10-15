@@ -1,6 +1,6 @@
-firstname = str(input('Enter your first name:\n'))
+firstname = input('Enter your first name:\n')
 if len(firstname) < 5:
-    surname = str(input('Enter your surname:\n'))
-    print(f'{f'{firstname} {surname}'.upper()}')
+    surname = input('Enter your surname:\n')
+    print(f'{firstname + } {surname}'.upper()}')
 else:
     print(f'{firstname.lower()}')
